@@ -29,32 +29,45 @@
   align-items: center;
 }
 img {
-  border-radius: 10px;
-  box-shadow: 5px 5px 20px 0px black;
+  border-radius: 25px;
+  box-shadow: 5px 5px 12px 0px rgba(0, 0, 0, 0.2);
 }
 #text {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Tahoma, Verdana, sans-serif;
   width: auto;
   font-size: 20px;
-  color: rgb(0, 0, 25);
+  color: rgb(27, 46, 53);
   height: 300px;
 }
 #heading {
   font-size: 42px;
 }
-#signup {
+#cntct {
   color: rgb(0, 0, 25);
   font-size: 18px;
   text-decoration: none;
   border-radius: 25px;
-  border: 1px solid blue;
+  border: 1px solid rgb(43, 196, 138);
 }
-#signup:hover {
-  color: rgb(210, 210, 210);
-  border: 1px solid dodgerblue;
-  background-color: dodgerblue;
+#readmore {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 25px;
+  border: 1px solid rgb(255, 99, 42);
+  background-color: rgb(255, 99, 42);
+}
+#cntct:hover {
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(43, 196, 138);
+  background-color: rgb(43, 196, 138);
 }
 #buttons > #home > a {
-  background-color: rgb(210, 210, 210);
-  color: black;
+  background-color: rgb(255, 255, 255);
+  color: rgb(27, 46, 53);
+}
+#homebtns {
+  /* height: 50px; */
+  display: flex;
+  justify-content: space-evenly;
 }

@@ -1,4 +1,25 @@
 #buttons > #about > a {
-  background-color: rgb(210, 210, 210);
+  background-color: rgb(255, 255, 255);
   color: black;
+}
+#ourmission,
+#ourstory {
+  width: 450px;
+}
+#p1,
+#p2 {
+  font-size: 18px;
+  font-family: Tahoma, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#content1,
+#content2 {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+}
+h1 {
+  color: rgb(27, 46, 53);
 }
