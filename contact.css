@@ -41,7 +41,7 @@ p {
   font-size: 18px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-#contact > a {
+#buttons > #contact > a {
   border: 1px solid dodgerblue;
   background-color: dodgerblue;
 }
