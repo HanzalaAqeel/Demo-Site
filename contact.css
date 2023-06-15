@@ -7,7 +7,41 @@ div#IFM {
 
 #map {
   box-shadow: 0px 0px 60px 0px black;
+  background-color: rgb(0, 0, 0, 1);
 }
 #mapmain {
   margin: 100px 0px 100px 0px;
+}
+#info {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  background-color: rgb(0, 0, 15);
+  border-radius: 5px;
+  height: 200px;
+}
+img {
+  margin: 10px;
+  width: 30px;
+}
+#gmail,
+#facebook,
+#instagram {
+  color: rgb(210, 210, 210);
+  display: flex;
+  align-items: center;
+}
+#receiver {
+  align-items: flex-start;
+  color: rgb(210, 210, 210);
+  display: flex;
+}
+p {
+  margin: 0;
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#contact > a {
+  border: 1px solid dodgerblue;
+  background-color: dodgerblue;
 }

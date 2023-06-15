@@ -54,3 +54,7 @@ img {
   border: 1px solid dodgerblue;
   background-color: dodgerblue;
 }
+#home > a {
+  background-color: rgb(210, 210, 210);
+  color: black;
+}
