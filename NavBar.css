@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(181, 181, 225);
+  background-color: rgb(210, 210, 210);
 }
 #navbar {
   height: 60px;
@@ -58,5 +58,6 @@ a {
   /* border-radius: 25px; */
 }
 #contact > a:hover {
-  background-color: blue;
+  border: 1px solid dodgerblue;
+  background-color: dodgerblue;
 }

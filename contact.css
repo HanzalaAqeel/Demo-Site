@@ -1,0 +1,13 @@
+div#IFM {
+  margin: auto;
+  width: 560px;
+  height: 450px;
+  text-align: center;
+}
+
+#map {
+  box-shadow: 0px 0px 60px 0px black;
+}
+#mapmain {
+  margin: 100px 0px 100px 0px;
+}
