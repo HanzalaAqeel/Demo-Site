@@ -1,19 +1,32 @@
 body {
   background-color: rgb(255, 255, 255);
+  margin: 0px;
+  /* padding: 0px; */
+  /* margin: none; */
 }
 #navbar {
-  height: 60px;
+  height: 80px;
   background-color: rgb(27, 46, 53);
   display: flex;
+  position: fixed;
+  top: 0%;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
-  border-radius: 5px;
+  /* border-radius: 5px; */
+  /* margin: 5px 5px 5px 5px; */
 }
 #logo {
   color: rgb(255, 255, 255);
   margin: 10px;
   width: auto;
   font-size: 20px;
+}
+#logoimg {
+  width: 120px;
+  border-radius: 5px 20px 5px 20px;
+  box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 1);
+  background-color: #ffffff;
 }
 #buttons {
   margin: 10px;

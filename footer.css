@@ -1,0 +1,79 @@
+/* #info {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  background-color: rgb(27, 46, 53);
+  border-radius: 5px;
+  height: 200px;
+}
+img {
+  margin: 10px;
+  width: 30px;
+}
+#gmail,
+#facebook,
+#instagram {
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+}
+#receiver {
+  align-items: flex-start;
+  color: rgb(255, 255, 255);
+  display: flex;
+}
+p {
+  margin: 0;
+  font-size: 18px;
+  font-family: Tahoma, Verdana, sans-serif;
+} */
+#maindiv {
+  display: flex;
+  font-family: Tahoma, Verdana, sans-serif;
+  background-color: rgb(27, 46, 53);
+  color: #ffffff;
+  justify-content: space-around;
+  padding: 50px;
+}
+#ftrlogo {
+  width: 200px;
+  border-radius: 10px 35px 10px 35px;
+  background-color: rgba(255, 255, 255);
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.5);
+}
+#gmailicon2 {
+  display: none;
+}
+#gmail:hover {
+  #gmailicon1 {
+    display: none;
+  }
+  #gmailicon2 {
+    display: inline;
+  }
+}
+#fbicon2 {
+  display: none;
+}
+#fb:hover {
+  #fbicon1 {
+    display: none;
+  }
+  #fbicon2 {
+    display: inline;
+  }
+}
+#instaicon2 {
+  display: none;
+}
+#insta:hover {
+  #instaicon1 {
+    display: none;
+  }
+  #instaicon2 {
+    display: inline;
+  }
+}
+footer > div > div > a:hover {
+  color: rgb(43, 196, 138);
+}
