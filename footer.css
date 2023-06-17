@@ -1,7 +1,7 @@
 #maindiv {
   display: flex;
   font-family: Tahoma, Verdana, sans-serif;
-  background-color: rgb(27, 46, 53);
+  background-color: rgb(27, 46, 53, 0.8);
   color: #ffffff;
   justify-content: space-around;
   padding: 50px;
@@ -12,9 +12,9 @@ footer a {
 }
 #ftrlogo {
   width: 200px;
-  border-radius: 10px 35px 10px 35px;
-  background-color: rgba(255, 255, 255);
-  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.5);
+  /* border-radius: 10px 35px 10px 35px; */
+  /* background-color: rgba(255, 255, 255); */
+  /* box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.5); */
 }
 .GIT2 {
   display: none;
