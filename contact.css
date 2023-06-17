@@ -1,22 +1,10 @@
-div#IFM {
-  margin: auto;
-  width: 560px;
-  height: 450px;
-  text-align: center;
-}
-
-#map {
-  box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.2);
-  background-color: rgb(0, 0, 0);
-}
-/* #mapmain {
+.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   margin: 100px 0px 100px 0px;
-} */
-
-#buttons > #contact > a {
-  border: 1px solid rgb(43, 196, 138);
-  background-color: rgb(43, 196, 138);
 }
+
 #formdiv {
   width: 350px;
   height: 400px;
@@ -32,11 +20,7 @@ div#IFM {
   display: flex;
   flex-direction: column;
 }
-#namediv,
-#emaildiv,
-#subjectdiv,
-#messagediv,
-#submitbtn {
+.LI {
   display: flex;
   flex-direction: column;
   /* align-items: center; */
@@ -67,12 +51,19 @@ label {
   font-size: 18px;
   /* font-family: Tahoma, Verdana, sans-serif; */
 }
-/* #submitbtn {
-  align-items: center;
-} */
-#content1 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 100px 0px 100px 0px;
+div#IFM {
+  margin: auto;
+  width: 560px;
+  height: 450px;
+  text-align: center;
+}
+
+#map {
+  box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.2);
+  background-color: rgb(0, 0, 0);
+}
+
+header #contact a {
+  border: 1px solid rgb(43, 196, 138);
+  background-color: rgb(43, 196, 138);
 }

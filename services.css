@@ -1,8 +1,8 @@
-#buttons > #services > a {
+header #services a {
   background-color: rgb(255, 255, 255);
   color: black;
 }
-#content {
+.content {
   font-family: Tahoma, Verdana, sans-serif;
   /* align-items: center; */
   /* margin: auto; */
@@ -11,13 +11,13 @@
   align-items: center;
   color: rgb(27, 46, 53);
 }
-#content1 {
+#content {
   font-size: 18px;
   font-family: Tahoma, Verdana, sans-serif;
   display: flex;
   flex-wrap: wrap;
 }
-#content1 > div {
+#content div {
   width: 300px;
   margin: auto;
   height: 300px;
@@ -33,7 +33,7 @@
 p {
   text-align: center;
 }
-#content1 > div:hover {
+.service:hover {
   color: #ffffff;
   background-color: rgb(27, 46, 53);
 }

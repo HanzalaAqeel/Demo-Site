@@ -11,135 +11,139 @@
     <link rel="stylesheet" href="./footer.css" />
   </head>
   <body>
-    <div id="navbar">
-      <div id="logo">
-        <img src="./images/logo-01.png" alt="sysborg.tech" id="logoimg" />
-      </div>
-      <div id="buttons">
-        <div id="home">
-          <a href="./index.html"> Home</a>
-        </div>
-        <div id="about">
-          <a href="./about.html"> About Us</a>
-        </div>
-        <div id="services">
-          <a href="./services.html"> Services</a>
-        </div>
-        <div id="contact">
-          <a href="./contact.html"> Contact Us</a>
-        </div>
-      </div>
-    </div>
-    <div id="content1">
-      <div id="formdiv">
-        <form id="form">
-          <div id="input">
-            <div id="namediv">
-              <label for="name">Name</label>
-              <input type="text" placeholder="Your Name" id="name" />
-            </div>
-            <div id="emaildiv">
-              <label for="email">Email</label>
-              <input type="email" placeholder="Your Email" id="email" />
-            </div>
-            <div id="subjectdiv">
-              <label for="subject">Subject</label>
-              <input type="text" placeholder="Your Subject" id="subject" />
-            </div>
-            <div id="messagediv">
-              <label for="message">Message</label>
-              <input type="text" placeholder="Your Message" id="message" />
-            </div>
+    <main>
+      <header>
+        <nav id="navbar">
+          <div id="logo">
+            <img src="./images/logo-01.png" alt="sysborg.tech" id="logoimg" />
           </div>
-          <div id="submitbtn">
-            <button type="submit" id="submit">Send Message</button>
-          </div>
-        </form>
-      </div>
+          <ul id="buttons">
+            <li class="buttons">
+              <a href="./index.html"> Home</a>
+            </li>
+            <li class="buttons">
+              <a href="./about.html"> About Us</a>
+            </li>
+            <li class="buttons">
+              <a href="./services.html"> Services</a>
+            </li>
+            <li id="contact" class="buttons">
+              <a href="./contact.html"> Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section class="content">
+        <div id="formdiv">
+          <form id="form">
+            <div id="input">
+              <div class="LI">
+                <label for="name">Name</label>
+                <input type="text" placeholder="Your Name" id="name" />
+              </div>
+              <div class="LI">
+                <label for="email">Email</label>
+                <input type="email" placeholder="Your Email" id="email" />
+              </div>
+              <div class="LI">
+                <label for="subject">Subject</label>
+                <input type="text" placeholder="Your Subject" id="subject" />
+              </div>
+              <div class="LI">
+                <label for="message">Message</label>
+                <input type="text" placeholder="Your Message" id="message" />
+              </div>
+            </div>
+            <div id="submitbtn">
+              <button type="submit" id="submit">Send Message</button>
+            </div>
+          </form>
+        </div>
 
-      <div id="mapmain">
-        <div id="IFM">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3617.222321169831!2d67.05984231293361!3d24.9585495312331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb34090e22140ff%3A0xaabbcd7a5db612d1!2sErum%20Shopping%20Mall%20Phase-I!5e0!3m2!1sen!2s!4v1686829768497!5m2!1sen!2s"
-            width="600"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-            id="map"
-          ></iframe>
+        <div id="mapmain">
+          <div id="IFM">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3617.222321169831!2d67.05984231293361!3d24.9585495312331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb34090e22140ff%3A0xaabbcd7a5db612d1!2sErum%20Shopping%20Mall%20Phase-I!5e0!3m2!1sen!2s!4v1686829768497!5m2!1sen!2s"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              id="map"
+            ></iframe>
+          </div>
         </div>
-      </div>
-    </div>
-    <footer id="footer">
-      <div id="maindiv">
-        <div id="div1">
-          <img src="./images/logo-01.png" alt="Logo" id="ftrlogo" />
-          <p>We build your dream Software</p>
+      </section>
+      <footer id="footer">
+        <div id="maindiv">
+          <div id="div1">
+            <img src="./images/logo-01.png" alt="Logo" id="ftrlogo" />
+            <p>We build your dream Software</p>
+          </div>
+          <div id="div2">
+            <h3>Pakistan</h3>
+            <a href="">92 5555555555</a>
+            <br /><br />
+            <a href="">example@gmail.com</a>
+            <h3>Canada</h3>
+            <a href="">92 6666666666</a>
+            <br /><br />
+            <a href="">example@gamil.com</a>
+          </div>
+          <div id="div3">
+            <h3>Our Services</h3>
+            <a href="./services.html">Web Services</a>
+            <br /><br />
+            <a href="services.html">Software Development</a>
+            <br /><br />
+            <a href="services.html">Digital Marketing</a>
+            <br /><br />
+            <a href="services.html">Graphic Designing</a>
+            <br /><br />
+            <a href="services.html">Mobile APP</a>
+            <br /><br />
+            <a href="services.html">SEO Services</a>
+          </div>
+          <div id="div4">
+            <h3>Get In Touch</h3>
+            <a href="" class="GIT">
+              <img
+                src="./images/social_icons-01.png"
+                alt="Gmail"
+                class="GIT1"
+              />
+              <img
+                src="./images/social_icons-04.png"
+                alt="Gmail"
+                class="GIT2"
+              />
+            </a>
+            <a href="" class="GIT">
+              <img
+                src="./images/social_icons-02.png"
+                alt="Facebook"
+                class="GIT1"
+              />
+              <img
+                src="./images/social_icons-05.png"
+                alt="Facebook"
+                class="GIT2"
+              />
+            </a>
+            <a href="" class="GIT">
+              <img
+                src="./images/social_icons-03.png"
+                alt="Instagram"
+                class="GIT1" />
+              <img
+                src="./images/social_icons-06.png"
+                alt="Instagram"
+                class="GIT2"
+            /></a>
+          </div>
         </div>
-        <div id="div2">
-          <h3>Pakistan</h3>
-          <a href="">92 5555555555</a>
-          <br /><br />
-          <a href="">example@gmail.com</a>
-          <h3>Canada</h3>
-          <a href="">92 6666666666</a>
-          <br /><br />
-          <a href="">example@gamil.com</a>
-        </div>
-        <div id="div3">
-          <h3>Our Services</h3>
-          <a href="./services.html">Web Services</a>
-          <br /><br />
-          <a href="services.html">Software Development</a>
-          <br /><br />
-          <a href="services.html">Digital Marketing</a>
-          <br /><br />
-          <a href="services.html">Graphic Designing</a>
-          <br /><br />
-          <a href="services.html">Mobile APP</a>
-          <br /><br />
-          <a href="services.html">SEO Services</a>
-        </div>
-        <div id="div4">
-          <h3>Get In Touch</h3>
-          <a href="" id="gmail">
-            <img
-              src="./images/social_icons-01.png"
-              alt="Gmail"
-              id="gmailicon1"
-            />
-            <img
-              src="./images/social_icons-04.png"
-              alt="Gmail"
-              id="gmailicon2"
-            />
-          </a>
-          <a href="" id="fb">
-            <img
-              src="./images/social_icons-02.png"
-              alt="Facebook"
-              id="fbicon1"
-            />
-            <img
-              src="./images/social_icons-05.png"
-              alt="Facebook"
-              id="fbicon2"
-            />
-          </a>
-          <a href="" id="insta">
-            <img
-              src="./images/social_icons-03.png"
-              alt="Instagram"
-              id="instaicon1" />
-            <img
-              src="./images/social_icons-06.png"
-              alt="Instagram"
-              id="instaicon2"
-          /></a>
-        </div>
-      </div>
-    </footer>
+      </footer>
+    </main>
   </body>
 </html>

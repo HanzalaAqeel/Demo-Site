@@ -4,6 +4,9 @@ body {
   /* padding: 0px; */
   /* margin: none; */
 }
+header li {
+  list-style-type: none;
+}
 #navbar {
   height: 80px;
   background-color: rgb(27, 46, 53);
@@ -28,27 +31,16 @@ body {
   box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 1);
   background-color: #ffffff;
 }
+
 #buttons {
   margin: 10px;
   display: flex;
 }
-#home {
+.buttons {
   margin: 2px;
   width: auto;
 }
-#about {
-  margin: 2px;
-  width: auto;
-}
-#services {
-  margin: 2px;
-  width: auto;
-}
-#contact {
-  margin: 2px;
-  width: auto;
-}
-a {
+header a {
   /* border: 1px solid blue; */
   color: rgb(255, 255, 255);
   font-family: Tahoma, Verdana, sans-serif;
@@ -58,18 +50,16 @@ a {
   text-decoration: none;
   border-radius: 25px;
 }
-#home > a:hover,
-#services > a:hover,
-#about > a:hover {
+.buttons a:hover {
   background-color: rgb(255, 255, 255);
   color: rgb(27, 46, 53);
   /* box-shadow: 2px 2px 10px 2px rgb(210, 210, 210); */
 }
-#contact > a {
+#contact a {
   border: 1px solid rgb(43, 196, 138);
   /* border-radius: 25px; */
 }
-#contact > a:hover {
+#contact a:hover {
   border: 1px solid rgb(43, 196, 138);
   background-color: rgb(43, 196, 138);
 }
@@ -80,7 +70,7 @@ a {
   background: rgb(27, 46, 53, 0.5);
 }
 ::-webkit-scrollbar-thumb {
-  background: rgb(43, 196, 138, 0.5);
+  background: rgb(43, 196, 138, 0.6);
 }
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(43, 196, 138);
