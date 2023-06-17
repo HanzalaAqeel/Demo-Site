@@ -17,7 +17,7 @@ header #services a {
   display: flex;
   flex-wrap: wrap;
 }
-#content div {
+#content > div {
   width: 300px;
   margin: auto;
   height: 300px;

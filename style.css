@@ -4,7 +4,7 @@
   justify-content: space-around;
   align-items: center;
 }
-body div img {
+section div img {
   border-radius: 25px;
   box-shadow: 5px 5px 12px 0px rgba(0, 0, 0, 0.2);
 }
